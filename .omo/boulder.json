@@ -1,0 +1,83 @@
+{
+  "schema_version": 2,
+  "active_work_id": "one-sided-jacobi-svd-468d9593",
+  "works": {
+    "one-sided-jacobi-svd-468d9593": {
+      "work_id": "one-sided-jacobi-svd-468d9593",
+      "active_plan": "/Users/cyae/Dropbox/Programming/python/project_ai_1/.omo/plans/one-sided-jacobi-svd.md",
+      "plan_name": "one-sided-jacobi-svd",
+      "status": "active",
+      "started_at": "2026-05-24T09:59:15.396Z",
+      "updated_at": "2026-05-24T11:12:43.033Z",
+      "session_ids": [
+        "ses_1a6935166ffe0VkrHQm70IvEG3"
+      ],
+      "session_origins": {
+        "ses_1a6935166ffe0VkrHQm70IvEG3": "direct"
+      },
+      "agent": "atlas",
+      "task_sessions": {
+        "todo:1": {
+          "task_key": "todo:1",
+          "task_label": "1",
+          "task_title": "`apply_fast_scaled_rotation(A, V, p, q, c, s, t, aqoap, apoaq, work_p, work_q, rsv_rvec)` — 4 WORK-condition cases",
+          "session_id": "ses_1a6888d1dffeY7PwDOth67xEYK",
+          "agent": "Sisyphus-Junior",
+          "category": "quick",
+          "started_at": "2026-05-24T10:02:51.748Z",
+          "ended_at": "2026-05-24T10:57:34.893Z",
+          "elapsed_ms": 3283145,
+          "status": "completed",
+          "updated_at": "2026-05-24T10:57:34.893Z"
+        },
+        "todo:7": {
+          "task_key": "todo:7",
+          "task_label": "7",
+          "task_title": "Implement rotation application (_apply_rotation.py)",
+          "session_id": "ses_1a6888d1dffeY7PwDOth67xEYK",
+          "agent": "Sisyphus-Junior",
+          "started_at": "2026-05-24T11:09:32.519Z",
+          "status": "running",
+          "updated_at": "2026-05-24T11:12:43.033Z"
+        }
+      }
+    }
+  },
+  "active_plan": "/Users/cyae/Dropbox/Programming/python/project_ai_1/.omo/plans/one-sided-jacobi-svd.md",
+  "started_at": "2026-05-24T09:59:15.396Z",
+  "status": "active",
+  "updated_at": "2026-05-24T11:12:43.033Z",
+  "session_ids": [
+    "ses_1a6935166ffe0VkrHQm70IvEG3"
+  ],
+  "session_origins": {
+    "ses_1a6935166ffe0VkrHQm70IvEG3": "direct"
+  },
+  "plan_name": "one-sided-jacobi-svd",
+  "task_sessions": {
+    "todo:1": {
+      "task_key": "todo:1",
+      "task_label": "1",
+      "task_title": "`apply_fast_scaled_rotation(A, V, p, q, c, s, t, aqoap, apoaq, work_p, work_q, rsv_rvec)` — 4 WORK-condition cases",
+      "session_id": "ses_1a6888d1dffeY7PwDOth67xEYK",
+      "agent": "Sisyphus-Junior",
+      "category": "quick",
+      "started_at": "2026-05-24T10:02:51.748Z",
+      "ended_at": "2026-05-24T10:57:34.893Z",
+      "elapsed_ms": 3283145,
+      "status": "completed",
+      "updated_at": "2026-05-24T10:57:34.893Z"
+    },
+    "todo:7": {
+      "task_key": "todo:7",
+      "task_label": "7",
+      "task_title": "Implement rotation application (_apply_rotation.py)",
+      "session_id": "ses_1a6888d1dffeY7PwDOth67xEYK",
+      "agent": "Sisyphus-Junior",
+      "started_at": "2026-05-24T11:09:32.519Z",
+      "status": "running",
+      "updated_at": "2026-05-24T11:12:43.033Z"
+    }
+  },
+  "agent": "atlas"
+}

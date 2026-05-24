@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools", "cython", "numpy"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "one_sided_jacobi"
+version = "0.1.0"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+]
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.cmdclass]
+build = "one_sided_jacobi._cybuild.build"
+
+[tool.cython-lint]
+# Optional: linting configuration for Cython source files

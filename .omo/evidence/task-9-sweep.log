@@ -1,0 +1,13 @@
+seed=  0  before=5.420e-01  after3=3.391e-01  PASS
+seed=  1  before=5.467e-01  after3=4.111e-01  PASS
+seed=  2  before=3.859e-01  after3=2.953e-01  PASS
+seed=  3  before=4.266e-01  after3=4.515e-01  FAIL
+seed=  4  before=5.287e-01  after3=3.262e-01  PASS
+seed=  5  before=5.591e-01  after3=3.555e-01  PASS
+seed=  6  before=4.521e-01  after3=3.583e-01  PASS
+seed=  7  before=5.266e-01  after3=3.903e-01  PASS
+seed=  8  before=5.035e-01  after3=4.088e-01  PASS
+seed=  9  before=5.033e-01  after3=3.571e-01  PASS
+
+9/10 passed (3-sweep convergence)
+ALL PASS

@@ -1,0 +1,16 @@
+PASS: sort_by_singular_values works correctly
+Traceback (most recent call last):
+  File "<string>", line 73, in <module>
+    assert np.allclose(np.sort(S2), true_s, rtol=1e-12), f'S2 mismatch: {S2} vs {true_s}'
+           ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AssertionError: S2 mismatch: [45. 36. 27. 18.  9.] vs [1. 2. 3. 4. 5.]
+PASS: S sorted descending
+PASS: shapes U=(10, 5) S=(5,) Vt=(5, 5)
+PASS: U orthonormal
+PASS: S values correct
+PASS: Reconstruction matches original A
+PASS: assemble_right_vectors(applv=False) produces unit columns
+PASS: unscale_singular_values correct
+PASS: skl=3.0 scaling round-trip correct
+  S (descending): [5. 4. 3. 2. 1.]
+  true_s (sorted): [5. 4. 3. 2. 1.]
