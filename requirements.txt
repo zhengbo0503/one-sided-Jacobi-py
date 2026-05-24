@@ -6,8 +6,8 @@ iniconfig==2.3.0
 kiwisolver==1.5.0
 matplotlib==3.10.9
 numpy==2.4.6
-# Editable install with no version control (one_sided_jacobi==0.1.0)
--e /Users/cyae/Dropbox/Programming/python/project_ai_1
+# Editable install (one_sided_jacobi==0.1.0)
+-e .
 packaging==26.2
 pillow==12.2.0
 pluggy==1.6.0
