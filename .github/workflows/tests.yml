@@ -24,12 +24,13 @@ jobs:
         run: python -m pytest tests/ -v
 
       - name: smoke
-        run: python -c "
+        run: |
+          python << 'EOF'
           from one_sided_jacobi import svd
           import numpy as np
           A = np.random.default_rng(0).standard_normal((40, 20))
           U, S, Vt = svd(A)
           err = np.linalg.norm(A - U @ np.diag(S) @ Vt) / np.linalg.norm(A)
           assert err < 1e-10
-          print(f'OK (reconstruction {err:.1e})')
-          "
+          print(f"OK (reconstruction {err:.1e})")
+          EOF
